@@ -1,0 +1,6 @@
+{
+    "haskell.ghcupExecutablePath": "${HOME}/.ghcup/bin/ghcup",
+    "haskell.serverEnvironment": {
+        "PATH": "${HOME}/.ghcup/bin:$PATH"
+      }
+}
