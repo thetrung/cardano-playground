@@ -8,8 +8,6 @@ import qualified Data.ByteString.Char8 as B
 import Data.ByteString.Base16 (encode)
 import Debug.Trace
 
-
-
 stringToBytes :: String -> B.ByteString
 stringToBytes = B.pack
 
@@ -29,7 +27,7 @@ printMerkleTree = do
 
 loadBlockData :: IO ()
 loadBlockData = do
-  bs <- BS.readFile "haskell-go-ffi-test/app/data/blocks-21.dat"
+  bs <- BS.readFile "cardano-playground/app/data/blocks-21.dat"
   let byteArray = B.unpack bs
   B.putStrLn bs
   Prelude.putStrLn byteArray

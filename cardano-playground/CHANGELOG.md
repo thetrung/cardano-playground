@@ -1,4 +1,4 @@
-# Revision history for haskell-go-ffi-test
+# Revision history for cardano-playground
 
 ## 0.1.0.0 -- YYYY-mm-dd
 
