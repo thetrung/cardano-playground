@@ -92,18 +92,10 @@ executable cardano-playground
     build-depends:
         base ^>=4.14.3.0,
         cardano-playground,
-        cryptohash-sha256,
-        strict,
-        io-streams,
-        merkle-tree,
-        binary,
-        bytestring,
-        recursion-schemes,
-        hashable,
-        text,
-        base16-bytestring,
-        memory,
-        cardano-ledger-shelley
+        cardano-binary,
+        bytestring
+        -- cardano-ledger-core,
+        -- cardano-ledger-shelley
 
     -- Directories containing source files.
     hs-source-dirs:   app
